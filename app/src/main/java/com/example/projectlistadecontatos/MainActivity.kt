@@ -25,15 +25,20 @@ class MainActivity : AppCompatActivity() {
         adapter.updateList(
                 arrayListOf(
                         Contact(
-                                "Eduardo",
+                                "Eduardo Guilherme",
                                 "999999999",
                                 "img.jpg"
                         ),
                         Contact(
-                                "Eduardo",
+                                "Monkey D. Luffy",
                                 "999999999",
                                 "img.jpg"
-                    )
+                    ),
+                        Contact(
+                                "Jotaro Kujo",
+                                "999999999",
+                                "img.jpg"
+                        )
                 )
         )
     }
